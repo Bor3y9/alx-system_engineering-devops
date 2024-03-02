@@ -7,7 +7,7 @@ sudo apt-get -y install nginx
 echo 'Hello World!' | sudo tee /var/www/html/index.html
 
 # Redirect
-sudo sed -i '/server_name _;/a \\n\tlocation /redirect_me {\n\t\treturn 301 https://x.com/Abdorithm;\n\t}' /etc/nginx/sites-available/default
+sudo sed -i '/server_name _;/a \\n\tlocation /redirect_me {\n\t\treturn 301 https://youtu.be/kpwtHgo_Cd4?si=J8jgfzOS-_jGT9PU;\n\t}' /etc/nginx/sites-available/default
 
 # Restart Nginx
 sudo service nginx restart
